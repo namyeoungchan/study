@@ -1,0 +1,19 @@
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/datasources.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/modules.xml
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.loc
+.idea_modules/

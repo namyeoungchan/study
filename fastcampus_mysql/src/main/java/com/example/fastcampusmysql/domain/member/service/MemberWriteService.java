@@ -32,6 +32,7 @@ public class MemberWriteService {
     }
     public void chageNickname(Long memberid , String nickname){
         var member = memberRepository.findById(memberid).orElseThrow();
+        member.changeNickname(nickname);
         memberRepository.save(member);
         saveNicknameHistory(member);
 
